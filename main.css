@@ -1,9 +1,17 @@
 .table .thead-dark tr .sort{
     width:130px;
 }
-.sort_click{
-    margin-left: 5px;
-}
-.sort_click:hover{
+.table .thead-dark tr .sort:hover{
     cursor: pointer;
+}
+
+.sort_img{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+img .sort_img .star{
+    opacity:1;
+}
+.show{    
+    opacity:1;
 }

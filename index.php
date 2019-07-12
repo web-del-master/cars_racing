@@ -23,11 +23,11 @@
                             <th scope="col">Имя</th>
                             <th scope="col">Город</th>
                             <th scope="col">Автомобиль</th>
-                            <th class="sort" scope="col">1й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
-                            <th class="sort" scope="col">2й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
-                            <th class="sort" scope="col">3й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
-                            <th class="sort" scope="col">4й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
-                            <th class="sort" scope="col">Всего <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
+                            <th class="sort" data-race="race" scope="col">1й-заезд <img class="sort_img" src="./img/icons8_Sort_Up_26px_1.png" alt="сортировка 1-й заезд"></th>
+                            <th class="sort" data-race="race"scope="col">2й-заезд <img class="sort_img" src="./img/icons8_Sort_Up_26px_1.png" alt="сортировка 2-й зваезд"></th>
+                            <th class="sort" data-race="race"scope="col">3й-заезд <img class="sort_img" src="./img/icons8_Sort_Up_26px_1.png" alt="сортировка 3-й заезд"></th>
+                            <th class="sort" data-race="race"scope="col">4й-заезд <img class="sort_img" src="./img/icons8_Sort_Up_26px_1.png" alt="сортировка 4-й заезд"></th>
+                            <th class="sort" data-all="all"scope="col">Всего <img class="sort_img show" src="./img/icons8_Christmas_Star_26px.png" alt="сортировка общий результат"></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -37,6 +37,7 @@
                         </tbody>
                       </table>
         </div>
+        
     </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
