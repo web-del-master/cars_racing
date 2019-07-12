@@ -1,0 +1,9 @@
+.table .thead-dark tr .sort{
+    width:130px;
+}
+.sort_click{
+    margin-left: 5px;
+}
+.sort_click:hover{
+    cursor: pointer;
+}

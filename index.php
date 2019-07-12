@@ -16,17 +16,18 @@
     </div>
     <div class="container">
         <div class="row">
-                <table class="table">
+                <table id='table_cars' class="table table-hover">
                         <thead class="thead-dark">
                           <tr>
                             <th scope="col">Место</th>
                             <th scope="col">Имя</th>
                             <th scope="col">Город</th>
                             <th scope="col">Автомобиль</th>
-                            <th scope="col">1й-заезд</th>
-                            <th scope="col">2й-заезд</th>
-                            <th scope="col">3й-заезд</th>
-                            <th scope="col">4й-заезд</th>
+                            <th class="sort" scope="col">1й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
+                            <th class="sort" scope="col">2й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
+                            <th class="sort" scope="col">3й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
+                            <th class="sort" scope="col">4й-заезд <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
+                            <th class="sort" scope="col">Всего <img class="sort_click" src="./img/icons8_Up_Down_Arrow__26px.png" alt="сортировка"></th>
                           </tr>
                         </thead>
                         <tbody>
